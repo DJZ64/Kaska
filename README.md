@@ -13,7 +13,7 @@ Site estático (HTML, CSS e JavaScript puro). Sem build e sem dependências.
 - Redes sociais: preencha `SOCIAL`. Itens vazios não aparecem.
 
 ## Rodar localmente
-`python3 -m http.server 8000` e abra http://localhost:8000
+`python3 -m http.server 8000` e abra http://localhost:8000 (não abra o index.html com duplo clique: os caminhos começam em "/" e exigem um servidor, como na Vercel)
 
 ## Publicar na Vercel
 1. Com Git: suba esta pasta para um repositório no GitHub, entre em vercel.com, "Add New > Project", importe o repositório. Framework: "Other". Sem build command. Output: raiz.

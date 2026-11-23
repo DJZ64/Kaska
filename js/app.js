@@ -1,4 +1,4 @@
-const LOGO='assets/logo.png';
+const LOGO='/assets/logo.png';
 // ====== COMPONENTES ======
 const $=(s,r=document)=>r.querySelector(s),app=$('#app');
 const art=(o,cls='')=>`<div class="blob ${cls}" style="background:${o.c||'var(--ye)'}">${o.img?`<img src="${o.img}" alt="${o.nome||o.n}" loading="lazy" decoding="async">`:`<span aria-hidden="true">${o.e}</span>`}</div>`;
